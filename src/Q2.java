@@ -44,10 +44,10 @@ public class Q2
         }
         else
         {
-            int max = 0;
-            for(int i=0;i <= ar.length-1;i++)
+            int max = ar[0];
+            for(int i=0;i <= top;i++)
             {
-                if(max < ar[i])
+                if(ar[i]>max)
                 {
                     max = ar[i];
                 }
