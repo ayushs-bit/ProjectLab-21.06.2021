@@ -45,16 +45,7 @@ public class Q3
         }
         else
         {
-            int max = 0;
-            Node current;
-            for(current = top;current != null;current = current.next)
-            {
-                if(current.data > max)
-                {
-                    max = current.data;
-                }
-            }
-            System.out.println("Highest Element = " + max);
+            System.out.println("Peek Element = " + top.data);
         }
     }
 

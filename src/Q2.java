@@ -44,15 +44,7 @@ public class Q2
         }
         else
         {
-            int max = ar[0];
-            for(int i=0;i <= top;i++)
-            {
-                if(ar[i]>max)
-                {
-                    max = ar[i];
-                }
-            }
-            System.out.println("Highest Number = " + max);
+            System.out.println("peek element = " + ar[top]);
         }
     }
     void traverse()//view
